@@ -1,0 +1,12 @@
+
+# test:
+#     path: /test/{age<\d+>?0}                        ##* numerique même chiffre et par defaut 0
+#     controller: App\Controller\TestController::test
+#     methods: [GET, POST]                            ##* accessible à la fois en get et en post
+#     host: 127.0.0.1                                 ##* accessible en localhost
+#           #{subdomain}.monsite.com
+#     schemes: [https, http]
+#     # defaults:  
+#     #     age: 0
+#     # requirements:
+#     #     age: \d+
