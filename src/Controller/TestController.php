@@ -24,7 +24,7 @@ class TestController
     public function test(Request $request, $age): Response //* le paramètre $age est age dans la route
     {
         /*
-        *   bags et variables superglobales
+        !   bags et variables superglobales
         ?   ------------------------------
                 request  $_POST
                 query    $_GET
